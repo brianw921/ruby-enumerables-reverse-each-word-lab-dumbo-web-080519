@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   reverse = ''
-  sting.split('').each do |char|
+  string.split('').each do |char|
     reverse = char + reverse
   end
   reverse
